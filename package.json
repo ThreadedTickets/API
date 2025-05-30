@@ -1,7 +1,7 @@
 {
   "scripts": {
     "server": "node .build/app.js",
-    "start": "rm -rf .build/ && tsc && npm run server",
+    "start": "npm i && rm -rf .build/ && tsc && npm run server",
     "server:debug": "rm -rf .build/ && tsc && node --trace-warnings .build/app.js",
     "debug": "npm run server:debug"
   },
