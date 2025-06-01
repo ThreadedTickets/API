@@ -75,7 +75,7 @@ const routes: RouteModule[] = [
           "Unknown error occurred";
 
         res.status(500).json({
-          message: `Failed to forward request to bot: ${message}`,
+          message: `Failed to forward request to bot`,
         });
       }
     },
